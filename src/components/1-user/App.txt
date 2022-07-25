@@ -1,0 +1,12 @@
+const user1 = {
+  name: "Satyaki Saha",
+   age: 28,
+    isRegister: true,
+     lang: ["Bangla","English","himdi"],
+}
+const user2 = {
+  name: "Satya Saha",
+   age: 30,
+    isRegister: false,
+     lang: ["Bangla","himdi"],
+}

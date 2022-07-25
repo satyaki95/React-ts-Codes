@@ -1,0 +1,24 @@
+const users = [
+  {
+    id: 1,
+    name: "Satyaki Saha",
+    email: "swatyaki95@outlook.com",
+    age: 32,
+    isRegistered: true,
+  },
+  {
+    id: 2,
+    name: "Rabeya Begum",
+    email: "rabu2010s@yahoo.co.in",
+    age: 31,
+    isRegistered: false,
+  },
+];
+
+
+
+
+
+{users.map((user) => (
+        <User2 key={user.id} user={user} />
+      ))}
